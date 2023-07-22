@@ -3,7 +3,7 @@
 Deploy a Simple Cloud monitoring application on kubernetes
 
 ## Project architecture
-(images/image1.png)
+[project architecture](images/image1.png)
 
 ## Starting up the application locally
 ```
@@ -22,8 +22,8 @@ docker build -t my-flask-app .
 docker run -d -p 3000:3000 my-flask-app
 ```
 
-[docker image built](images/image3.jpeg)
-[docker container running](images/image4.jpeg)
+[docker image built](images/image3.png)
+[docker container running](images/image4.png)
 
 ## Create ECR and push image to the Repo
 ```
