@@ -48,7 +48,7 @@ python3 eks.py
 ##  Port forward and expose the Kubernetes application
 ```
 
-kubectl port-forward service/my-flask-service 5000:5000
+kubectl port-forward service/my-flask-service 3000:3000
 
 ```
 
