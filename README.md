@@ -44,4 +44,12 @@ aws ecr create-repository --repository-name cloud-native-repo
 python3 eks.py
 
 ```
+
+##  Port forward and expose the Kubernetes application
+```
+
+kubectl port-forward service/my-flask-service 5000:5000
+
+```
+
 ![application runs fine after deployment](images/image8.png)
